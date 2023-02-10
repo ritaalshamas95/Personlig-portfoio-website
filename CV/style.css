@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap');
+*{ 
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', serif;
+}
+body
+{
+    background:rgb(219, 210, 173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-width: 1000px;
+    background: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-bottom: 10px solid  #E7BE57;
+    border-left: 5px solid #E7BE57;
+    border-top: 5px solid #E7BE57;
+    border-right: 10px solid #E7BE57;
+    
+}
+
+
+.container .left_side
+{
+    position: relative;
+    background:#352704;
+    padding: 40px;
+    border-right: 5px solid #E7BE57;
+    
+}
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E7BE57;
+    
+}
+
+ .profileText .imagebox
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border-bottom: 10px solid  #E7BE57;
+    border-left: 5px solid #E7BE57;
+    border-top: 5px solid #E7BE57;
+    border-right: 10px solid #E7BE57;
+}
+.profileText .imagebox IMG
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.profileText h1
+{
+    color: #E7BE57;
+    font-size: medium;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText h1 span
+{
+    font-size: small;
+    font-weight: 300;
+}
+.Kompetens
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #E7BE57;
+
+    
+}
+.title
+{
+    color: #E7BE57;
+    text-transform: uppercase;
+    font-size: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+} 
+
+.Kompetens ul
+{
+    position: relative;
+}
+.Kompetens ul li
+{
+   position: relative;
+    list-style: none ;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.Kompetens ul li span
+{
+    color: white;
+    font-weight: 300;
+
+}
+.Kompetens ul li:before
+{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius:100%;
+    border: 2px solid #E7BE57;
+}
+.Kompetens ul li:after
+{
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -21px;
+    width: 2px;
+    height: 90px;
+    background: #E7BE57;
+} 
+.Kompetens .percent
+{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: white;
+    border-radius: 50px;
+    display: block;
+    margin-top: 5px;
+}
+
+.Kompetens .percent div
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #E7BE57;
+    border-radius: 50px;
+}
+
+.Språk
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #E7BE57;
+
+    
+}
+.title
+{
+    color: #E7BE57;
+    text-transform: uppercase;
+    font-size: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+} 
+
+.Språk ul
+{
+    position: relative;
+}
+.Språk ul li
+{
+   position: relative;
+    list-style: none ;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.Språk ul li span
+{
+    color: white;
+    font-weight: 300;
+
+}
+.Språk ul li:before
+{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius:100%;
+    border: 2px solid #E7BE57;
+}
+.Språk ul li:after
+{
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -21px;
+    width: 2px;
+    height: 90px;
+    background: #E7BE57;
+}  
+.Språk .percent
+{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: white;
+    border-radius: 50px;
+    display: block;
+    margin-top: 5px;
+}
+.Språk .percent div
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #E7BE57;
+    border-radius: 50px;
+}
+.Social
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #E7BE57;
+
+    
+}
+.title
+{
+    color: #E7BE57;
+    text-transform: uppercase;
+    font-size: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+} 
+
+.Social ul
+{
+    position: relative;
+}
+.Social ul li
+{
+   position: relative;
+    list-style: none ;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.Social ul li span
+{
+    color: white;
+    font-weight: 300;
+
+}
+.Social ul li:before
+{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius:100%;
+    border: 2px solid #E7BE57;
+}
+.Social ul li:after
+{
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -21px;
+    width: 2px;
+    height: 90px;
+    background: #E7BE57;
+}  
+.Social ul li .icon 
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: white;
+
+}
+.Hobby
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #E7BE57;
+
+    
+}
+.title
+{
+    color: #E7BE57;
+    text-transform: uppercase;
+    font-size: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+} 
+
+.Hobby ul
+{
+    position: relative;
+}
+.Hobby ul li
+{
+   position: relative;
+    list-style: none ;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.Hobby ul li span
+{
+    color: white;
+    font-weight: 300;
+
+}
+.Hobby ul li:before
+{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius:100%;
+    border: 2px solid #E7BE57;
+}
+.Hobby ul li:after
+{
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -21px;
+    width: 2px;
+    height: 90px;
+    background: #E7BE57;
+}
+.Kontakt
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #E7BE57;
+
+    
+}
+.title
+{
+    color: #E7BE57;
+    text-transform: uppercase;
+    font-size: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+} 
+
+.Kontakt ul
+{
+    position: relative;
+}
+.Kontakt ul li
+{
+   position: relative;
+    list-style: none ;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.Kontakt ul li span
+{
+    color: white;
+    font-weight: 300;
+
+}
+.Kontakt ul li:before
+{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius:100%;
+    border: 2px solid #E7BE57;
+}
+.Kontakt ul li:after
+{
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -21px;
+    width: 2px;
+    height: 90px;
+    background: #E7BE57;
+}  
+.Kontakt ul li .icon 
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: white;
+
+}
+.container .right_side
+{
+    position: relative;
+    background:white;
+    padding: 50px;
+    border-right: 5px solid #E7BE57;
+    
+}
+.information
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E7BE57;
+    
+}
+.information h2
+{
+    color: #352704;
+    font-size: large;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.information h2 span
+{
+    font-size: small;
+    font-weight: 300;
+}
+.about
+{
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E7BE57;
+}
+.about :last-child
+{
+    margin-bottom: 0;
+}
+.title2
+{
+    color: #9e7716;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.box
+{
+    padding-left: 50px;
+    overflow: hidden;
+    color: #352704;
+}
+.info h3
+{
+    color: #352704;
+    font-size: medium;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 600;
+    line-height: 1.4em;
+    
+}
+.info h3 span
+{
+    font-size: small;
+    font-weight: 300;
+}
+.title2
+{
+    color: #9e7716;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.about ul li
+{
+   position: relative;
+    list-style: none ;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.about ul li:before
+{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius:100%;
+    border: 2px solid #9e7716;
+}
+.about ul li:after
+{
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -21px;
+    width: 2px;
+    height: 90px;
+    background: #9e7716;
+}  
+@media only screen and (max-width: 1170px) 
+{
+    body
+    {
+        background:rgb(219, 210, 173);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 50vh;
+        
+    }   
+    .container
+{
+    position: relative;
+    width: 20%;
+    max-width: 50px;
+    min-width: 50px;
+    background: white;
+    margin: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-bottom: 10px solid  #E7BE57;
+    border-left: 5px solid #E7BE57;
+    border-top: 5px solid #E7BE57;
+    border-right: 10px solid #E7BE57;
+    
+} 
+
+}
+
+
